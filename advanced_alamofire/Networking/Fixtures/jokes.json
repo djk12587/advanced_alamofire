@@ -1,0 +1,62 @@
+[
+  {
+    "id": 21,
+    "type": "programming",
+    "setup": "What's the best thing about a Boolean?",
+    "punchline": "Even if you're wrong, you're only off by a bit."
+  },
+  {
+    "id": 10,
+    "type": "general",
+    "setup": "What's the best time to go to the dentist?",
+    "punchline": "Tooth hurty."
+  },
+  {
+    "id": 21,
+    "type": "programming",
+    "setup": "What's the best thing about a Boolean?",
+    "punchline": "Even if you're wrong, you're only off by a bit."
+  },
+  {
+    "id": 4,
+    "type": "general",
+    "setup": "What do you call a belt made out of watches?",
+    "punchline": "A waist of time."
+  },
+  {
+    "id": 30,
+    "type": "programming",
+    "setup": "Two bytes meet. The first byte asks, \"Are you ill?\"",
+    "punchline": "The second byte replies, \"No, just feeling a bit off.\""
+  },
+  {
+    "id": 11,
+    "type": "knock-knock",
+    "setup": "Knock knock. \n Who's there? \n A broken pencil. \n A broken pencil who?",
+    "punchline": "Never mind. It's pointless."
+  },
+  {
+    "id": 16,
+    "type": "knock-knock",
+    "setup": "Knock knock. \n Who's there? \n Bless! \n Bless who?",
+    "punchline": "I didn't sneeze, but thank you."
+  },
+  {
+    "id": 4,
+    "type": "general",
+    "setup": "What do you call a belt made out of watches?",
+    "punchline": "A waist of time."
+  },
+  {
+    "id": 21,
+    "type": "programming",
+    "setup": "What's the best thing about a Boolean?",
+    "punchline": "Even if you're wrong, you're only off by a bit."
+  },
+  {
+    "id": 18,
+    "type": "knock-knock",
+    "setup": "Knock knock. \n Who's there? \n Opportunity",
+    "punchline": "... Opportunity doesn't knock twice."
+  }
+]

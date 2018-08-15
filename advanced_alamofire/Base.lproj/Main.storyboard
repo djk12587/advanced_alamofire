@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="advanced_alamofire" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ht-tV-V7M">
+                                <rect key="frame" x="154" y="40" width="67" height="30"/>
+                                <state key="normal" title="New Joke"/>
+                                <connections>
+                                    <action selector="newJokeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qcj-LO-SPB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dp7-Ab-YwG">
+                                <rect key="frame" x="185.5" y="129" width="4.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="uBS-5z-Tob">
+                                <rect key="frame" x="177" y="130" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfK-hD-hyw">
+                                <rect key="frame" x="153" y="202.5" width="68" height="30"/>
+                                <state key="normal" title="Punchline"/>
+                                <connections>
+                                    <action selector="punchlineTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aE4-im-8Je"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMR-Ph-Qid">
+                                <rect key="frame" x="185.5" y="286.5" width="4.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Ht-tV-V7M" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6xy-al-fIM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Dp7-Ab-YwG" secondAttribute="trailing" constant="16" id="FAL-2L-XjT"/>
+                            <constraint firstItem="Dp7-Ab-YwG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KvQ-dM-TeK"/>
+                            <constraint firstItem="lMR-Ph-Qid" firstAttribute="top" secondItem="tfK-hD-hyw" secondAttribute="bottom" constant="54" id="Mt7-FB-3iv"/>
+                            <constraint firstItem="lMR-Ph-Qid" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="N0K-vE-Gib"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lMR-Ph-Qid" secondAttribute="trailing" constant="16" id="NhX-Je-Zem"/>
+                            <constraint firstItem="Dp7-Ab-YwG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PQo-yX-Ktn"/>
+                            <constraint firstItem="lMR-Ph-Qid" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="PhT-vA-4ro"/>
+                            <constraint firstItem="tfK-hD-hyw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VBv-Ok-i0N"/>
+                            <constraint firstItem="tfK-hD-hyw" firstAttribute="top" secondItem="Dp7-Ab-YwG" secondAttribute="bottom" constant="53" id="eaG-L1-reb"/>
+                            <constraint firstItem="uBS-5z-Tob" firstAttribute="top" secondItem="6Ht-tV-V7M" secondAttribute="bottom" constant="60" id="ifU-Yp-nmp"/>
+                            <constraint firstItem="Dp7-Ab-YwG" firstAttribute="top" secondItem="6Ht-tV-V7M" secondAttribute="bottom" constant="59" id="omS-Yi-gah"/>
+                            <constraint firstItem="uBS-5z-Tob" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pS4-vd-NN4"/>
+                            <constraint firstItem="6Ht-tV-V7M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="zCE-Dc-J0d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="uBS-5z-Tob" id="ZUQ-yv-Qj1"/>
+                        <outlet property="punchlineLabel" destination="lMR-Ph-Qid" id="boc-SY-pyJ"/>
+                        <outlet property="setupLabel" destination="Dp7-Ab-YwG" id="YdI-R6-yNi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
